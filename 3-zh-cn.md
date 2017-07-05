@@ -219,6 +219,6 @@ HTTP2-Settings 首部字段的值是 SETTINGS 帧(6.5节)的有效载荷，被�
 
 > Clients and servers MUST treat an invalid connection preface as a connection error (Section 5.4.1) of type PROTOCOL_ERROR. A GOAWAY frame (Section 6.8) MAY be omitted in this case, since an invalid preface indicates that the peer is not using HTTP/2.
 
-客户端和服务端都必须将无效的连接前奏处理为连接错误(5.4.1节)，错误类型为 PROTOCOL_ERROR。在这种情况下，可以不发送 GOAWAY 帧(6.8节)，因为无效的连接前奏表示对端并没有使用HTTP/2。
+客户端和服务端都必须将无效的连接前奏处理为连接错误(5.4.1节)，错误类型为 PROTOCOL_ERROR。在这种情况下，可以不发送 GOAWAY 帧(6.8节)，因为无效的连接前奏表示对端并没有使用 HTTP/2。
 
 
